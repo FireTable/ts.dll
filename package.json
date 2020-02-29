@@ -1,6 +1,6 @@
 {
-  "name": "ts.dll",
-  "version": "1.0.0",
+  "name": "chun-ts.dll",
+  "version": "1.0.1",
   "description": "通过nodejs调用天使插件",
   "dependencies": {
     "lodash": "^4.17.15",
@@ -12,7 +12,7 @@
     "tslint-config-standard": "^7.0.0",
     "typescript": "^2.9.1"
   },
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
