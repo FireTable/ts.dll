@@ -5,7 +5,6 @@ const path = require("path");
 const fs = require("fs");
 const _ = require("lodash");
 
-
 function getTSPlug() {
     const dllExist = fs.existsSync(`${path.resolve(__dirname, 'ts.dll')}`);
     if(!dllExist){
