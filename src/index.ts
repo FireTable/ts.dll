@@ -25,8 +25,4 @@ function getTSPlug() {
 
 const TSPlug = getTSPlug();
 
-module.exports = {
-    errorCode: 0,
-    errorMsg: 'TSPlug初始化成功',
-    ...TSPlug
-};
+module.exports = () => getTSPlug()
